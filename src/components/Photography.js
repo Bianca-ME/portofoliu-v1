@@ -20,7 +20,7 @@ export default function Photography () {
                 <img src={ImgDemo[8]} alt="" className="imgdemo" />
                 <img src={ImgDemo[9]} alt="" className="imgdemo" />
             </div>
-           
+            <img src={ImgDemo[3]} alt="" className="imgdemo" />
             
         </main>
     )
