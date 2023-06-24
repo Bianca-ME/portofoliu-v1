@@ -1,25 +1,98 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router, Routes, Route, Link, NavLink
+  // , Redirect 
+} from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
-function App() {
+// components
+// import Header from './components/Header';
+import Logo from './components/Logo';
+import HomePage from './components/HomePage';
+import WebDesign from './components/WebDesign';
+import Photography from './components/Photography';
+import Drawings from './components/Drawings';
+import CV from './components/CV';
+import Contact from './components/Contact';
+import Vision from './components/Vision';
+
+// styling
+import './assets/style/style.css';
+
+const App = () => {
+  const [showHomePage, setShowHomePage] = useState(true);
+
+  function handleLogoClick() {
+    setShowHomePage(true);
+  }
+
+
+  useEffect(() => {
+    // Add any necessary side effects
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+
+        <header className='menu'>
+          <nav >
+            <ul className='menu'>
+              <li>
+                <Link to="/" onClick={handleLogoClick} className='visited-link'>
+                  <Logo />
+                </Link>
+              </li>
+              <li>
+                <NavLink className='visited-link' to='/web-design' activeClassName="active-link">Web Design</NavLink>
+              </li>
+              <li>
+                <NavLink className='visited-link' to='/photography' activeClassName="active-link">Photography</NavLink>
+              </li>
+              <li>
+                <NavLink className='visited-link' to='/drawings' activeClassName="active-link">Drawings</NavLink>
+              </li>
+              <li>
+                <NavLink className='visited-link' to='/CV' activeClassName="active-link">CV</NavLink>
+              </li>
+              <li>
+                <NavLink className='visited-link' to='/contact' activeClassName="active-link">Contact</NavLink>
+              </li>
+              <br/>
+              <li>
+                <NavLink className='visited-link' to='/vision' activeClassName="active-link">Future Vision</NavLink>
+              </li>
+              <br/>
+              <li className='visited-link'><a href='https://www.instagram.com/august_omen/' target='_blank'>instagram</a></li>
+            </ul>
+          </nav>
+
+        </header>
+
+
+        <div data-scroll-container>
+          <Routes>
+            <Route exact path="/" element={showHomePage ? <HomePage /> : <HomePage />} />
+
+            {/* Route for React v18.2.0 */}
+            <Route path='/web-design' element={<WebDesign />} />
+            <Route path='/photography' element={<Photography />} />
+            <Route path='/drawings' element={<Drawings />} />
+            <Route path='/CV' element={<CV />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/vision' element={<Vision />} />
+
+
+            <Route path="/404">
+              {/* <NotFound /> */}
+            </Route>
+            {/* <Redirect to="/404" /> */}
+            {/* niu merge not found */}
+            {/* <Route path='*' component={NotFound}/> */}
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

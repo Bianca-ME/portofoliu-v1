@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Inconsolata', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    /* background-color:#ee0000; */
+    height: 100vh;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-top: 10vh;
+}
+
+ul {
+    
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.5;
+}
+
+
+p {
+    margin: 0;
+}
+
+.margin-from-header {
+    margin-left: 300px;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+/* ----------- */
+
+.active-link {
+    text-decoration: underline;
+    /* text-underline-offset: 13px; */
+    color: #000000;
+}
+
+li:hover {
+    font-style: italic;
+
+}
+
+.visited-link {
+    color: #000000;
+    text-decoration: none;
+    /* color: white; */
+}
+
+* {
+   font-family: 'Inconsolata', monospace;
+   font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+
+.logo-container {
+    margin-bottom: 10vh;
+}
+
+.logo {
+    width: 100px;
+}
+
