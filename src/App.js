@@ -11,7 +11,7 @@ import HomePage from './components/HomePage';
 import WebDesign from './components/WebDesign';
 import Photography from './components/Photography';
 import Drawings from './components/Drawings';
-import CV from './components/CV';
+import Bio from './components/Bio';
 import Contact from './components/Contact';
 import Vision from './components/Vision';
 
@@ -48,11 +48,11 @@ const App = () => {
               <li>
                 <NavLink className='visited-link' to='/photography' activeClassName="active-link">Photography</NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink className='visited-link' to='/drawings' activeClassName="active-link">Drawings</NavLink>
-              </li>
+              </li> */}
               <li>
-                <NavLink className='visited-link' to='/CV' activeClassName="active-link">CV</NavLink>
+                <NavLink className='visited-link' to='/bio' activeClassName="active-link">Bio</NavLink>
               </li>
               <li>
                 <NavLink className='visited-link' to='/contact' activeClassName="active-link">Contact</NavLink>
@@ -62,7 +62,7 @@ const App = () => {
                 <NavLink className='visited-link' to='/vision' activeClassName="active-link">Future Vision</NavLink>
               </li>
               <br/>
-              <li className='visited-link'><a href='https://www.instagram.com/august_omen/' target='_blank'>instagram</a></li>
+              <li className='visited-link'><a href='https://www.instagram.com/august_omen/' target='_blank' rel='noreferrer'>instagram</a></li>
             </ul>
           </nav>
 
@@ -77,7 +77,7 @@ const App = () => {
             <Route path='/web-design' element={<WebDesign />} />
             <Route path='/photography' element={<Photography />} />
             <Route path='/drawings' element={<Drawings />} />
-            <Route path='/CV' element={<CV />} />
+            <Route path='/bio' element={<Bio />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/vision' element={<Vision />} />
 
