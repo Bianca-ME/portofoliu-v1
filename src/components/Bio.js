@@ -5,7 +5,7 @@ export default function Bio () {
     return (
         <main className='margin-from-header'>
         
-            <p>curiculum vitae</p>
+            <p className='page-header'>_about_</p>
             
         </main>
     )

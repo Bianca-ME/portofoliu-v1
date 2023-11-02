@@ -4,6 +4,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 /* font-family: 'Work Sans', sans-serif; */
 
+/* * {
+    border: 1px solid blue;
+} */
+
+.page-header {
+    font-size: 30px;
+    padding: 60px;
+    text-align: center;
+}
+
+::selection {
+    text-shadow: none;
+    color: #d0f5e9;
+    color: white;
+    background: #ff0000;
+}
+
+/* ---- */
+
 html,
 body {
     margin: 0;
@@ -73,6 +92,7 @@ li:hover {
    font-family: 'Inconsolata', monospace;
    font-family: 'Work Sans', sans-serif;
     font-size: 14px;
+    box-sizing: border-box;
     /* border: 1px solid red; */
 }
 
