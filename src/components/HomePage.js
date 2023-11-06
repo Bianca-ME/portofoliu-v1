@@ -7,9 +7,11 @@ import React from 'react';
 
 export default function HomePage () {
     return (
-        <main className='margin-from-header'>
+        <main className='home-page-container'>
         
-            <p>home ... about me</p>
+            <p className='page-header italic'>just another human<br/> like you</p>
+<br/>
+         
             
         </main>
     )

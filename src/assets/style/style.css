@@ -68,6 +68,14 @@ p {
     padding: 0;
 }
 
+.general-text-padding-container {
+    padding: 20vh 20vw;
+}
+
+.hide-text {
+    color: white;
+}
+
 
 /* ----------- */
 
@@ -97,7 +105,7 @@ li:hover {
 }
 
 
-
+/* Photography page ----> */
 img.imgdemo {
     width:100%;
     pointer-events: none;
@@ -117,4 +125,34 @@ img.imgsingrid {
 .images-container-grid {
     display: grid;
     grid-template-columns: 50% 50%;
+}
+/* ----> Photography page */
+
+/* Future Vision page ----> */
+img.notes {
+    width: 100%;
+}
+
+.centering-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.future-vision-container {
+    padding: 60px;
+    /* height: 100vh; */
+}
+/* ----> Future Vision page */
+
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* width: 0%; */
+}
+
+.italic {
+    font-style: italic;
 }

@@ -43,10 +43,10 @@ const App = () => {
                 </Link>
               </li>
               <li>
-                <NavLink className='visited-link' to='/web-design' activeClassName="active-link">Web Design</NavLink>
+                <NavLink className='visited-link' to='/photography' activeClassName="active-link">Photography</NavLink>
               </li>
               <li>
-                <NavLink className='visited-link' to='/photography' activeClassName="active-link">Photography</NavLink>
+                <NavLink className='visited-link' to='/web-design' activeClassName="active-link">Web Design</NavLink>
               </li>
               {/* <li>
                 <NavLink className='visited-link' to='/drawings' activeClassName="active-link">Drawings</NavLink>
