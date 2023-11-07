@@ -16,14 +16,14 @@ export default function WebDesign() {
                 <br />
                 <br />
             </div>
-            <p>current version - see below or <a href='https://654288e9e53f790083af8d54--stunning-beignet-3638a9.netlify.app/' target='_blank'>open in new tab</a></p>
+            <p>current version - see below or <a href='https://654288e9e53f790083af8d54--stunning-beignet-3638a9.netlify.app/' target='_blank' rel='appendix'>open in new tab</a></p>
             <br />
             {/* <iframe width="100%" height="1000px" src="https://654288e9e53f790083af8d54--stunning-beignet-3638a9.netlify.app/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             <img src={website1} alt="notes" className="notes" />
             <br />
             <br />
             <br />
-            <p>previous version - see below or <a href='https://t20-v1-1-2--effortless-baklava-0b0295.netlify.app/' target='_blank'>open in new tab</a></p>
+            <p>previous version - see below or <a href='https://t20-v1-1-2--effortless-baklava-0b0295.netlify.app/' target='_blank' rel='appendix'>open in new tab</a></p>
             <br />
             <img src={website2} alt="notes" className="notes" />
             {/* <iframe width="100%" height="1000px" src="https://t20-v1-1-2--effortless-baklava-0b0295.netlify.app/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
