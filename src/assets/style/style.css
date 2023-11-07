@@ -14,6 +14,14 @@
     text-align: center;
 }
 
+.medium-header {
+    font-size: 20px;
+}
+
+.narrow-padding {
+    padding: 50px;
+}
+
 ::selection {
     text-shadow: none;
     color: #d0f5e9;
