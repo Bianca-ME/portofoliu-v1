@@ -7,7 +7,7 @@ export default function Bio() {
             {/* idea: by highlighting, reveal sensitive information. anxiety? */}
             <p className='page-header'>_about_</p>
             <div className='general-text-padding-container'>
-                <p>currently based in Iceland</p>
+                <p>currently based in Romania</p>
 
             </div>
 
