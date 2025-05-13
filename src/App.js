@@ -43,17 +43,17 @@ const App = () => {
                 </Link>
               </li>
               <li>
-                <NavLink className='visited-link' to='/photography' activeClassName="active-link">Photography</NavLink>
+                <NavLink className='visited-link' to='/bio' activeClassName="active-link">Bio</NavLink>
               </li>
               <li>
                 <NavLink className='visited-link' to='/web-design' activeClassName="active-link">Web Design</NavLink>
               </li>
+              <li>
+                <NavLink className='visited-link' to='/photography' activeClassName="active-link">Photography</NavLink>
+              </li>
               {/* <li>
                 <NavLink className='visited-link' to='/drawings' activeClassName="active-link">Drawings</NavLink>
               </li> */}
-              <li>
-                <NavLink className='visited-link' to='/bio' activeClassName="active-link">Bio</NavLink>
-              </li>
               <li>
                 <NavLink className='visited-link' to='/contact' activeClassName="active-link">Contact</NavLink>
               </li>
@@ -62,6 +62,7 @@ const App = () => {
                 <NavLink className='visited-link' to='/vision' activeClassName="active-link">Future Vision</NavLink>
               </li>
               <br/>
+              <li className='visited-link'><a href='https://github.com/Bianca-ME' target='_blank' rel='noreferrer'>GitHub</a></li>
               <li className='visited-link'><a href='https://www.instagram.com/august_omen/' target='_blank' rel='noreferrer'>instagram</a></li>
             </ul>
           </nav>
@@ -74,10 +75,10 @@ const App = () => {
             <Route exact path="/" element={showHomePage ? <HomePage /> : <HomePage />} />
 
             {/* Route for React v18.2.0 */}
+            <Route path='/bio' element={<Bio />} />
             <Route path='/web-design' element={<WebDesign />} />
             <Route path='/photography' element={<Photography />} />
             <Route path='/drawings' element={<Drawings />} />
-            <Route path='/bio' element={<Bio />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/vision' element={<Vision />} />
 

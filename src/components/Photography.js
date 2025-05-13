@@ -9,7 +9,7 @@ export default function Photography() {
 
             <p className="page-header">_photography_</p>
             <div className='images-container'>
-                <img src={ImgDemo[1]} alt="" className="imgdemo" />
+                {/* <img src={ImgDemo[1]} alt="" className="imgdemo" /> */}
                 <img src={ImgDemo[2]} alt="" className="imgdemo" />
                 <img src={ImgDemo[3]} alt="" className="imgdemo" />
                 <img src={ImgDemo[4]} alt="" className="imgdemo" />
@@ -58,7 +58,7 @@ export default function Photography() {
                 <img src={ImgDemo[46]} alt="" className="imgdemo" />
                 <img src={ImgDemo[47]} alt="" className="imgdemo" />
                 <img src={ImgDemo[48]} alt="" className="imgdemo" />
-                <img src={ImgDemo[49]} alt="" className="imgdemo" />
+                {/* <img src={ImgDemo[49]} alt="" className="imgdemo" /> */}
                 <img src={ImgDemo[50]} alt="" className="imgdemo" />
                 <img src={ImgDemo[51]} alt="" className="imgdemo" />
                 <img src={ImgDemo[52]} alt="" className="imgdemo" />
@@ -73,7 +73,7 @@ export default function Photography() {
                 <img src={ImgDemo[61]} alt="" className="imgdemo" />
                 <img src={ImgDemo[62]} alt="" className="imgdemo" />
                 <img src={ImgDemo[63]} alt="" className="imgdemo" />
-                <img src={ImgDemo[64]} alt="" className="imgdemo" />
+                {/* <img src={ImgDemo[64]} alt="" className="imgdemo" /> */}
                 <img src={ImgDemo[65]} alt="" className="imgdemo" />
                 <img src={ImgDemo[66]} alt="" className="imgdemo" />
                 <img src={ImgDemo[67]} alt="" className="imgdemo" />
@@ -82,7 +82,7 @@ export default function Photography() {
                 <img src={ImgDemo[70]} alt="" className="imgdemo" />
                 <img src={ImgDemo[71]} alt="" className="imgdemo" />
                 <img src={ImgDemo[72]} alt="" className="imgdemo" />
-                <img src={ImgDemo[73]} alt="" className="imgdemo" />
+                {/* <img src={ImgDemo[73]} alt="" className="imgdemo" /> */}
                 <img src={ImgDemo[74]} alt="" className="imgdemo" />
                 <img src={ImgDemo[75]} alt="" className="imgdemo" />
             </div>
