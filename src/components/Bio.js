@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutPNG from './../assets/images/collages/visual-About-me.PNG';
 
 
 export default function Bio() {
@@ -12,6 +13,10 @@ export default function Bio() {
                 <p>I believe in slow, meaningful growth and doing things the right way—whether it's designing an interface, debugging embedded code, or building a life aligned with values like quality, simplicity, and innovation.</p>
                 <br />
             </div>
+            <div className='centering-container'>
+                <img src={aboutPNG} alt="visual About me collage PNG" className="notes"/>
+            </div>
+            {/* <img src={aboutPNG} alt="visual About me collage PNG"/> */}
 
         </main>
     )
